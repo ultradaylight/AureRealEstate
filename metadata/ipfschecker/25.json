@@ -1,0 +1,37 @@
+{
+    "name": "Eth E Prninu LA",
+    "address": "940 Eth St, NV 28902",
+    "description": "A majestic hotel named Eth E Prninu LA, offering luxury stays",
+    "image": "https://ipfs.io/ipfs/bafybeicta3gggishp5bk2exs5hr2le4f7ohyp4iyyuk4bmkcuwlpmzuhbq/25.png",
+    "id": "25",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 55
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Hotel"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 2000
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 2050
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 6609
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 1991
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Epic"
+        }
+    ]
+}

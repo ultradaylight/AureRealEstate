@@ -1,0 +1,37 @@
+{
+    "name": "The Sacrifice Hills Hotel",
+    "address": "306 The St, NV 30777",
+    "description": "A majestic hotel named The Sacrifice Hills Hotel, for the sacrifice set",
+    "image": "https://ipfs.io/ipfs/bafybeicta3gggishp5bk2exs5hr2le4f7ohyp4iyyuk4bmkcuwlpmzuhbq/30.png",
+    "id": "30",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 44
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Hotel"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 200
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 203
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 5222
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 2000
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Epic"
+        }
+    ]
+}

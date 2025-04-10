@@ -1,0 +1,37 @@
+{
+    "name": "Degenerate Brothel",
+    "address": "607 Degenerate St, NV 17853",
+    "description": "A legendary hotel named Degenerate Brothel, a uber for acquired taste",
+    "image": "https://ipfs.io/ipfs/bafybeicta3gggishp5bk2exs5hr2le4f7ohyp4iyyuk4bmkcuwlpmzuhbq/26.png",
+    "id": "26",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 40
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Hotel"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 50
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 56
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 7727
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 1952
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Epic"
+        }
+    ]
+}

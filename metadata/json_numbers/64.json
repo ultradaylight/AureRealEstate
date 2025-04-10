@@ -1,0 +1,37 @@
+{
+    "name": "WenMoon",
+    "address": "797 WenMoon St, AC 27350",
+    "description": "An iconic yacht named WenMoon, designed for the cold",
+    "image": "https://ipfs.io/ipfs/bafybeicta3gggishp5bk2exs5hr2le4f7ohyp4iyyuk4bmkcuwlpmzuhbq/64.png",
+    "id": "64",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 43
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Yacht"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 5
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 3
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 7067
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 2004
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Epic"
+        }
+    ]
+}

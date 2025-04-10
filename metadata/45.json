@@ -1,0 +1,37 @@
+{
+    "name": "The Siemens Most Headquarters",
+    "address": "877 The St, NY 25282",
+    "description": "A modest office named The Siemens Most Headquarters, bustling with business",
+    "image": "https://ipfs.io/ipfs/bafybeicta3gggishp5bk2exs5hr2le4f7ohyp4iyyuk4bmkcuwlpmzuhbq/45.png",
+    "id": "45",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 7
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Office"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 0
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 3
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 571
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 1955
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Common"
+        }
+    ]
+}

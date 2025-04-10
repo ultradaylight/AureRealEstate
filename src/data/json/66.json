@@ -1,0 +1,37 @@
+{
+    "name": "Brown Booty",
+    "address": "778 Brown St, MARS 31064",
+    "description": "A prestigious yacht named Brown Booty, designed for Mars productivity",
+    "image": "https://ipfs.io/ipfs/bafybeicta3gggishp5bk2exs5hr2le4f7ohyp4iyyuk4bmkcuwlpmzuhbq/66.png",
+    "id": "66",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 42
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Yacht"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 1
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 2
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 9148
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 1957
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Epic"
+        }
+    ]
+}

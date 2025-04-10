@@ -1,0 +1,37 @@
+{
+    "name": "The Heart Castle",
+    "address": "560 The St, WA 22798",
+    "description": "An impressive house named The Heart Castle, perfect for cozy living",
+    "image": "https://ipfs.io/ipfs/bafybeicta3gggishp5bk2exs5hr2le4f7ohyp4iyyuk4bmkcuwlpmzuhbq/12.png",
+    "id": "12",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 34
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "House"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 4
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 5
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 4521
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 1980
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Rare"
+        }
+    ]
+}

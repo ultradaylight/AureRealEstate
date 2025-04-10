@@ -1,0 +1,37 @@
+{
+    "name": "iRotation Hex Offering",
+    "address": "822 iRotation St, CA 17391",
+    "description": "A basic condo named iRotation Hex Offering, urban living redefined",
+    "image": "https://ipfs.io/ipfs/bafybeicta3gggishp5bk2exs5hr2le4f7ohyp4iyyuk4bmkcuwlpmzuhbq/34.png",
+    "id": "34",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 12
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Condo"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 1
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 2
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 1410
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 2005
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Common"
+        }
+    ]
+}

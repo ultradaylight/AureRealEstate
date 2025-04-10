@@ -1,0 +1,37 @@
+{
+    "name": "Solana Reboot Room",
+    "address": "723 Solana St, TX 23406",
+    "description": "A storage unit named Solana Reboot Room",
+    "image": "https://ipfs.io/ipfs/bafybeicta3gggishp5bk2exs5hr2le4f7ohyp4iyyuk4bmkcuwlpmzuhbq/85.png",
+    "id": "85",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 31
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Storage"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 0
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 0
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 600
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 1958
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Rare"
+        }
+    ]
+}

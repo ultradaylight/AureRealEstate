@@ -1,0 +1,37 @@
+{
+    "name": "Hexland",
+    "address": "128 Hexland St, TX 20713",
+    "description": "An impressive house named Hexland, perfect for Hex OG's",
+    "image": "https://ipfs.io/ipfs/bafybeicta3gggishp5bk2exs5hr2le4f7ohyp4iyyuk4bmkcuwlpmzuhbq/17.png",
+    "id": "17",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 34
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "House"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 3
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 4
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 5129
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 1998
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Rare"
+        }
+    ]
+}

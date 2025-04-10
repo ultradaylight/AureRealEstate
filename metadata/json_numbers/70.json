@@ -1,0 +1,37 @@
+{
+    "name": "BlackDildo",
+    "address": "758 BlackDildo St, NY 21555",
+    "description": "An Yacht named BlackDildo, designed for stealth",
+    "image": "https://ipfs.io/ipfs/bafybeicta3gggishp5bk2exs5hr2le4f7ohyp4iyyuk4bmkcuwlpmzuhbq/70.png",
+    "id": "70",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 42
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Yacht"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 5
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 3
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 7169
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 2024
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Epic"
+        }
+    ]
+}

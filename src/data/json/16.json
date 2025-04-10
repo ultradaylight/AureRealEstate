@@ -1,0 +1,37 @@
+{
+    "name": "Long Castle",
+    "address": "391 Long St, FL 30620",
+    "description": "A notable house named Long Castle, blending old and new",
+    "image": "https://ipfs.io/ipfs/bafybeicta3gggishp5bk2exs5hr2le4f7ohyp4iyyuk4bmkcuwlpmzuhbq/16.png",
+    "id": "16",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 34
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "House"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 3
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 5
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 9860
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 1969
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Rare"
+        }
+    ]
+}

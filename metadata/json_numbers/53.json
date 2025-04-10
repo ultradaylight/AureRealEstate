@@ -1,0 +1,37 @@
+{
+    "name": "One Bitcoin",
+    "address": "900 One St, MARS 33769",
+    "description": "A trailer named One Bitcoin, designed for living",
+    "image": "https://ipfs.io/ipfs/bafybeicta3gggishp5bk2exs5hr2le4f7ohyp4iyyuk4bmkcuwlpmzuhbq/53.png",
+    "id": "53",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 5
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Trailer"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 0
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 2
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 556
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 1958
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Common"
+        }
+    ]
+}

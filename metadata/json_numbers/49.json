@@ -1,0 +1,37 @@
+{
+    "name": "CowSwap River Tower",
+    "address": "428 CowSwap St, NY 14235",
+    "description": "A basic office named CowSwap River Tower, a hub of swaps",
+    "image": "https://ipfs.io/ipfs/bafybeicta3gggishp5bk2exs5hr2le4f7ohyp4iyyuk4bmkcuwlpmzuhbq/49.png",
+    "id": "49",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 9
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Office"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 0
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 2
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 1038
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 1990
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Common"
+        }
+    ]
+}

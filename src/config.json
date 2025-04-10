@@ -1,0 +1,26 @@
+{
+    "31337": {
+        "aurerealEstate": {
+            "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+        },
+        "trusteeship": {
+            "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
+        }
+    },
+    "943": {
+        "aurerealEstate": {
+            "address": "0xbb8F8DbF65e35Cd7A4d8615B3Fdd517E23757557"
+        },
+        "trusteeship": {
+            "address": "0x3D0A54B6CcB5A36ec9E8006e5374255E474ecd88"
+        }
+    },
+    "369": {
+        "aurerealEstate": {
+            "address": "0xbb8F8DbF65e35Cd7A4d8615B3Fdd517E23757557"
+        },
+        "trusteeship": {
+            "address": "0x3D0A54B6CcB5A36ec9E8006e5374255E474ecd88"
+        }
+    }
+}

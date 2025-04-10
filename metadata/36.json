@@ -1,0 +1,37 @@
+{
+    "name": "Interpol hideout",
+    "address": "738 Interpol St, IL 30578",
+    "description": "A strategic condo named Interpol hideout, for a special client",
+    "image": "https://ipfs.io/ipfs/bafybeicta3gggishp5bk2exs5hr2le4f7ohyp4iyyuk4bmkcuwlpmzuhbq/36.png",
+    "id": "36",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 12
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Condo"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 4
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 2
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 868
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 1981
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Common"
+        }
+    ]
+}

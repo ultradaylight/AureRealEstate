@@ -1,0 +1,37 @@
+{
+    "name": "The Federation Of Moralis Industries",
+    "address": "120 The St, FL 21781",
+    "description": "A basic office named The Federation Of Moralis Industries, a hub for devs",
+    "image": "https://ipfs.io/ipfs/bafybeicta3gggishp5bk2exs5hr2le4f7ohyp4iyyuk4bmkcuwlpmzuhbq/46.png",
+    "id": "46",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 9
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Office"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 0
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 2
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 1833
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 1972
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Common"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Ruggard pMKR Frontenac",
+    "address": "279 Ruggard St, NY 24786",
+    "description": "An iconic hotel named Ruggard pMKR Frontenac, a haven for travelers",
+    "image": "https://ipfs.io/ipfs/bafybeicta3gggishp5bk2exs5hr2le4f7ohyp4iyyuk4bmkcuwlpmzuhbq/21.png",
+    "id": "21",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 60
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Hotel"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 500
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 505
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 7571
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 1962
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Epic"
+        }
+    ]
+}

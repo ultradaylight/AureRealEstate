@@ -1,0 +1,37 @@
+{
+    "name": "CoreyCosta Farms",
+    "address": "104 CoreyCosta St, WA 34596",
+    "description": "A legendary land named CoreyCosta Farms, a spot worth owning",
+    "image": "https://ipfs.io/ipfs/bafybeicta3gggishp5bk2exs5hr2le4f7ohyp4iyyuk4bmkcuwlpmzuhbq/99.png",
+    "id": "99",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 54
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Farm"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 2
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 2
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 555397
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 1961
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Epic"
+        }
+    ]
+}

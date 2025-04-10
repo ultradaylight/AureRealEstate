@@ -1,0 +1,37 @@
+{
+    "name": "Hodlosseum",
+    "address": "985 Hodlosseum St, NY 22925",
+    "description": "Hodlosseum, King Hold",
+    "image": "https://ipfs.io/ipfs/bafybeicta3gggishp5bk2exs5hr2le4f7ohyp4iyyuk4bmkcuwlpmzuhbq/4.png",
+    "id": "4",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 57
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Building"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 0
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 0
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 6086
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 1966
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Epic"
+        }
+    ]
+}

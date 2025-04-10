@@ -1,0 +1,37 @@
+{
+    "name": "JohnnyChaos Farms",
+    "address": "643 JohnnyChaos St, IL 25802",
+    "description": "A blood wine winery named JohnnyChaos Farms, stomping every drop",
+    "image": "https://ipfs.io/ipfs/bafybeicta3gggishp5bk2exs5hr2le4f7ohyp4iyyuk4bmkcuwlpmzuhbq/94.png",
+    "id": "94",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 59
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Farm"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 2
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 2
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 2369255
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 1957
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Epic"
+        }
+    ]
+}
