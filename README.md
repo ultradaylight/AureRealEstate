@@ -3,6 +3,7 @@
 Welcome to **AureRealEstate**, a decentralized application (DApp) built on the PulseChain blockchain using Hardhat as the development environment. This project tokenizes real estate properties as NFTs (Non-Fungible Tokens), offering a collection of 100 exclusive properties. These properties are represented by unique ERC721 tokens and can be minted, bought, and sold via a marketplace smart contract. Given their limited supply, these NFTs have the potential to become highly valuable assets in the future.
 
 ## Mint Buy Sell Here: https://aurelips.com/aurerealestate/
+Backup IPFS: https://ipfs.io/ipfs/bafybeigioy2vvufb2oxinkoqjmdzumwvga74km6fdlwxl72behah4ijkpa/
 
 ## Project Overview
 
