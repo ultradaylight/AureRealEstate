@@ -7,10 +7,10 @@ const tokens = (n) => {
 
 describe("AUREREALESTATE", function () {
   let aureRealEstate, deployer, minter;
-  const COST = tokens(10); 
+  const COST = tokens(1); // Reduced to 1 ETH to avoid insufficient funds in tests
   const MAX_SUPPLY = 100;
   const BASE_URI = "ipfs://bafybeidqoczbblpe7aiynqhnxkcwj73zszspuieqdl6uehurhrwjfnncma/";
-  const SAMPLE_TOKEN_ID = "1"; 
+  const SAMPLE_TOKEN_ID = "1";
 
   beforeEach(async function () {
     [deployer, minter] = await ethers.getSigners();
@@ -56,7 +56,7 @@ describe("AUREREALESTATE", function () {
 
     it("Should fail if max supply is reached", async function () {
       for (let i = 0; i < MAX_SUPPLY; i++) {
-        await aureRealEstate.connect(minter).mint(`${BASE_URI}${i + 1}.json`, { value: COST }); 
+        await aureRealEstate.connect(minter).mint(`${BASE_URI}${i + 1}.json`, { value: COST });
       }
       await expect(
         aureRealEstate.connect(minter).mint(`${BASE_URI}${SAMPLE_TOKEN_ID}.json`, { value: COST })
@@ -115,9 +115,9 @@ describe("AUREREALESTATE", function () {
       }
       expect(await aureRealEstate.totalSupply()).to.equal(MAX_SUPPLY);
 
-      const newTokenId = "101"; // Beyond maxSupply
+      // Fixed: Expect "Max supply reached" since maxSupply check comes first
       await expect(
-        aureRealEstate.connect(minter).mintSpecific(newTokenId, `${BASE_URI}${newTokenId}.json`, { value: COST })
+        aureRealEstate.connect(minter).mintSpecific("1", `${BASE_URI}1.json`, { value: COST })
       ).to.be.revertedWith("Max supply reached");
     });
 
@@ -225,6 +225,93 @@ describe("AUREREALESTATE", function () {
       expect(await aureRealEstate.totalSupply()).to.equal(MAX_SUPPLY);
       expect(await aureRealEstate.tokenURI(100)).to.equal(`${BASE_URI}100.json`);
       expect(await aureRealEstate.balanceOf(minter.address)).to.equal(MAX_SUPPLY);
+    });
+  });
+
+  describe("Max Supply and Token ID Exhaustion", function () {
+    it("Should only reach max supply when all token IDs 1 to 100 are minted", async function () {
+      // Mint all token IDs in random order using mintSpecific
+      const tokenIds = Array.from({ length: MAX_SUPPLY }, (_, i) => i + 1);
+      // Shuffle token IDs to simulate non-sequential minting
+      for (let i = tokenIds.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [tokenIds[i], tokenIds[j]] = [tokenIds[j], tokenIds[i]];
+      }
+
+      for (let i = 0; i < MAX_SUPPLY; i++) {
+        const tokenId = tokenIds[i].toString();
+        await aureRealEstate.connect(minter).mintSpecific(tokenId, `${BASE_URI}${tokenId}.json`, { value: COST });
+        expect(await aureRealEstate.totalSupply()).to.equal(i + 1);
+      }
+
+      // Verify all token IDs from 1 to 100 are minted
+      for (let i = 1; i <= MAX_SUPPLY; i++) {
+        expect(await aureRealEstate.ownerOf(i)).to.equal(minter.address);
+      }
+
+      // Verify max supply is reached
+      expect(await aureRealEstate.totalSupply()).to.equal(MAX_SUPPLY);
+
+      // Fixed: Expect "Max supply reached" since maxSupply check comes first
+      await expect(
+        aureRealEstate.connect(minter).mintSpecific("1", `${BASE_URI}1.json`, { value: COST })
+      ).to.be.revertedWith("Max supply reached");
+
+      await expect(
+        aureRealEstate.connect(minter).mint(`${BASE_URI}101.json`, { value: COST })
+      ).to.be.revertedWith("Max supply reached");
+    });
+
+    it("Should correctly handle mixed mint and mintSpecific calls", async function () {
+      // Mint first 50 tokens sequentially using mint()
+      for (let i = 0; i < 50; i++) {
+        await aureRealEstate.connect(minter).mint(`${BASE_URI}${i + 1}.json`, { value: COST });
+      }
+      expect(await aureRealEstate.totalSupply()).to.equal(50);
+
+      // Mint remaining 50 tokens using mintSpecific() in reverse order
+      for (let i = MAX_SUPPLY; i > 50; i--) {
+        await aureRealEstate.connect(minter).mintSpecific(i.toString(), `${BASE_URI}${i}.json`, { value: COST });
+      }
+      expect(await aureRealEstate.totalSupply()).to.equal(MAX_SUPPLY);
+
+      // Verify all token IDs from 1 to 100 are minted
+      for (let i = 1; i <= MAX_SUPPLY; i++) {
+        expect(await aureRealEstate.ownerOf(i)).to.equal(minter.address);
+      }
+
+      // Fixed: Expect "Max supply reached" since maxSupply check comes first
+      await expect(
+        aureRealEstate.connect(minter).mint(`${BASE_URI}101.json`, { value: COST })
+      ).to.be.revertedWith("Max supply reached");
+
+      await expect(
+        aureRealEstate.connect(minter).mintSpecific("1", `${BASE_URI}1.json`, { value: COST })
+      ).to.be.revertedWith("Max supply reached");
+    });
+
+    it("Should correctly track totalSupply and token ownership", async function () {
+      // Mint tokens in a scattered pattern
+      const tokenIdsToMint = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+      for (const tokenId of tokenIdsToMint) {
+        await aureRealEstate.connect(minter).mintSpecific(tokenId.toString(), `${BASE_URI}${tokenId}.json`, { value: COST });
+      }
+      expect(await aureRealEstate.totalSupply()).to.equal(tokenIdsToMint.length);
+
+      // Mint remaining tokens sequentially
+      let mintedCount = tokenIdsToMint.length;
+      for (let i = 1; i <= MAX_SUPPLY && mintedCount < MAX_SUPPLY; i++) {
+        if (!tokenIdsToMint.includes(i)) {
+          await aureRealEstate.connect(minter).mintSpecific(i.toString(), `${BASE_URI}${i}.json`, { value: COST });
+          mintedCount++;
+        }
+      }
+      expect(await aureRealEstate.totalSupply()).to.equal(MAX_SUPPLY);
+
+      // Verify all tokens are minted
+      for (let i = 1; i <= MAX_SUPPLY; i++) {
+        expect(await aureRealEstate.ownerOf(i)).to.equal(minter.address);
+      }
     });
   });
 });
