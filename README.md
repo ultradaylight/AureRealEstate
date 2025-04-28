@@ -34,7 +34,7 @@ Follow these steps to set up and run the Hardhat project on your computer:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/aurerealestate.git
+git clone https://github.com/ultradaylight/aurerealestate.git
 cd aurerealestate
 ```
 
